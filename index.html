@@ -1,15 +1,34 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ru">
 
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Navigation</title>
+
+    <title>Туристическое агенство Форест Тревел</title>
+    <meta name="description" content="Турпоходы по дикой природе от туристического агенства Форест Тревел в Москве">
+    <meta name="keywords" content="турпоходы, лес, природа, турагенство, Форест Тревел">
+
     <link rel="stylesheet" href="./css/main.css">
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Lobster&family=PT+Sans:wght@400;700&display=swap"
         rel="stylesheet">
 
+    <meta property="og:url" content="https://it2konst.com/forest-travel/main.html">
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="Туристическое агентство Форест Тревел">
+    <meta property="og:description" content="Турпоходы по дикой природе">
+    <meta property="og:image" content="https://it2konst.com/forest-travel/img/opengraph.jpg">
+
+    <!--
+        @import url('https://fonts.googleapis.com/css2?family=Lobster&family=PT+Sans:wght@400;700&display=swap');
+
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+        font-family: 'Lobster', sans-serif;
+        font-family: 'PT Sans', sans-serif;
+    -->
     <link rel="apple-touch-icon" sizes="180x180" href="./img/fico/apple-touch-icon.png">
     <link rel="icon" type="image/png" sizes="32x32" href="./img/fico/favicon-32x32.png">
     <link rel="icon" type="image/png" sizes="16x16" href="./img/fico/favicon-16x16.png">
@@ -19,25 +38,150 @@
     <meta name="msapplication-TileColor" content="#00aba9">
     <meta name="msapplication-config" content="./img/fico/browserconfig.xml">
     <meta name="theme-color" content="#ffffff">
-
 </head>
 
 <body>
 
-    <main class="ui">
-        <div class="container-nav">
-            <h1 class="ui-header1">Проект "Форест Тревел"</h1>
-            <p class="ui-header2">Страницы:</p>
-            <ul class="ui-list">
-                <li><a href="./main.html">Главная</a></li>
-                <li><a href="./tours.html">Туры и направления</a></li>
-                <li><a href="./tracking.html">Статья. Трекинг походы</a></li>
-                <li><a href="./contacts.html">Контакты</a></li>
-                <li><a href="./404.html">Ошибка 404</a></li>
-            </ul>
+    <header class="header">
+        <div class="header-top">
+            <div class="logo">ФорестТревел</div>
+            <nav class="header-nav">
+                <ul class="header-nav-list">
+                    <li class="header-nav-list-item"><a class="header-nav-link" href="./index.html">Главная</a></li>
+                    <li class="header-nav-list-item"><a class="header-nav-link" href="./tours.html">Туры и
+                            направления</a></li>
+                    <li class="header-nav-list-item"><a class="header-nav-link" href="./404.html">О компании</a>
+                    </li>
+                    <li class="header-nav-list-item"><a class="header-nav-link" href="./tracking.html">Галерея</a></li>
+                    <li class="header-nav-list-item"><a class="header-nav-link" href="./contacts.html">Контакты</a></li>
+                </ul>
+
+                <!-- Навигация -->
+                <nav class="pop-up-nav" id="clickMe">
+                    <a href="./index.html">Главная</a>
+                    <a href="./tours.html">Туры и направления</a>
+                    <a href="./404.html">О компании (404)</a>
+                    <a href="./tracking.html">Галерея</a>
+                    <a href="./contacts.html">Контакты</a>
+                </nav>
+
+                <!-- Иконка навигации -->
+                <div class="nav-icon">
+                    <div class="nav-icon__middle"></div>
+                </div>
+
+            </nav>
+        </div>
+        <div class="header-content">
+            <h1 class="header-title">Путешествие всегда хорошая идея</h1>
+            <p>Турпоходы по дикой природе</p>
+        </div>
+        <a href="#scroll" class="header-scroll">скролл вниз</a>
+    </header>
+
+    <main class="main" id="scroll">
+        <div class="container">
+            <!-- main-row -->
+            <article class="main-row">
+                <div class="main-content">
+                    <div class="main-content-header">
+                        <h2 class="main-h2">Популярные направления</h2>
+                    </div>
+
+                    <div class="main-content-text"> 
+                        <p>
+                            Когда <b>Горный Алтай</b> называют второй Швейцарией, алтайцы отвечают, что нужно еще
+                            разобраться, кто тут второй. Чтобы расставить все по местам, отправляйтесь в путешествие по
+                            Чуйскому тракту , по <a href="#">Горному Алтаю</a> до самой Монголии. 962 км — полный
+                            маршрут <b>Новосибирск—Новоалтайск—Бийск—Майма</b> —государственная граница с Монголией.
+                        </p>
+                    </div>
+                    <a href="./tours.html" class="button">Подробнее</a>
+                </div>
+                <div class="main-img">
+                    <img src="./img/main-page/img-1.jpg" alt="Популярные направления">
+                </div>
+            </article>
+            <article class="main-row">
+                <div class="main-content">
+                    <div class="main-content-header">
+                        <h2 class="main-h2">Впечатляющие маршруты</h2>
+                    </div>
+                    <div class="main-content-text">
+                        <p>
+                            Вишенкой на торте станет поездка в Национальный парк <b>Порт-Кэмпбелл</b> через Ocean Road,
+                            которая
+                            сама по себе стоит визита в <a href="#">Австралию</a>. Полюбуетесь одной из главных
+                            достопримечательностей
+                            страны — скалами, которые до 1922 года были известны в народе как <b>«Хрюшка и
+                                поросята»</b>, а
+                            сегодня
+                            носят название «Двенадцать апостолов».
+                        </p>
+                    </div>
+                    <a href="./tours.html" class="button">Подробнее</a>
+                </div>
+                <div class="main-img">
+                    <img src="./img/main-page/img-2.jpg" alt="Впечатляющие маршруты">
+                </div>
+            </article>
+            <!-- //main-row -->
         </div>
     </main>
 
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-row">
+                <div class="footer-copyright">
+                    <div class="footer-logo">
+                        <div class="logo">ФорестТревел</div>
+                    </div>
+                    <p>
+                        При поддержке Управления по туризму Российской Федерации. ФорестТревел. Все права защищены.
+                        Copyright © 2023
+                    </p>
+                </div>
+                <div class="footer-widgets-wrapper">
+                    <div class="footer-widget footer-widget-info">
+                        <h3 class="footer-widget-title">Информация</h3>
+                        <ul class="footer-widget-list">
+                            <li><a href="./index.html">Главная</a></li>
+                            <li><a href="./contacts.html">О компании</a></li>
+                            <li><a href="./tours.html">Галерея</a></li>
+                            <li><a href="./tracking.html">Блог</a></li>
+                        </ul>
+                    </div>
+                    <div class="footer-widget footer-widget-services">
+                        <h3 class="footer-widget-title">Услуги</h3>
+                        <ul class="footer-widget-list">
+                            <li><a href="./tours.html">Бесплатные туры</a></li>
+                            <li><a href="./tours.html">Невероятные приключения</a></li>
+                            <li><a href="./tours.html">Экстремальный отдых</a></li>
+                            <li><a href="./tours.html">Экзотические джунгли</a></li>
+                            <li><a href="./tracking.html">Трекинг походы</a></li>
+                        </ul>
+                    </div>
+                    <div class="footer-widget footer-widget-contacts">
+                        <h3 class="footer-widget-title">Контакты</h3>
+                        <ul class="footer-widget-list">
+                            <li>
+                                <p><a href="tel:+79055555555">+7 (905) 555-55-55</a></p>
+                            </li>
+                            <li>
+                                <p><a href="mailto:info@foresttravel.com">info@foresttravel.com</a></p>
+                            </li>
+                            <li>
+                                <p>г. Москва, Рязанский проспект 54, офис 112.</p>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </footer>
+
+    <script src="./js/main.js"></script>
 </body>
 
 </html>
