@@ -1,0 +1,9 @@
+<svg width="24.000000" height="24.000000" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+	<desc>
+			Created with Pixso.
+	</desc>
+	<defs/>
+	<rect width="24.000000" height="24.000000" fill="#FFFFFF" fill-opacity="0"/>
+	<path d="M20 4C21.1 4 22 4.90039 22 6L22 18C22 19.0996 21.1 20 20 20L4 20C2.89999 20 2 19.0996 2 18L2 6C2 4.90039 2.89999 4 4 4L20 4Z" stroke="#31405B" stroke-opacity="1.000000" stroke-width="2.000000" stroke-linejoin="round"/>
+	<path d="M22 6L12 13L2 6" stroke="#31405B" stroke-opacity="1.000000" stroke-width="2.000000" stroke-linejoin="round" stroke-linecap="round"/>
+</svg>
